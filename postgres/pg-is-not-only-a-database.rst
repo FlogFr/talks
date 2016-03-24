@@ -20,6 +20,12 @@ Installation
 Maintenance
 ============
 - CLI command
+.. code-block::
+
+    Ver Cluster Port Status Owner    Data directory               Log file
+    9.1 main    5433 down   postgres /var/lib/postgresql/9.1/main /var/log/postgresql/postgresql-9.1-main.log
+    9.4 main    5432 online postgres /var/lib/postgresql/9.4/main /var/log/postgresql/postgresql-9.4-main.log
+
 - Upgrade (pg_clusterupgrade)
 
 Environment
